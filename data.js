@@ -9,7 +9,6 @@ var dataAll =
       [ "Bruce Springsteen", "To follow"],
       [ "Shed Seven", "To follow"],
       [ "The Stone Roses", "To follow"],
-      [ "The Stone Roses", "To follow"]
   ],
    "Robbie": [
       [ "Kasabian", "Kasabian"],
