@@ -1,11 +1,3 @@
-var dataTable1 = [
-    [ "Radiojhead", "The Bends"],
-    [ "Radiojhead", "The Bends"],
-    [ "Radiojhead", "The Bends"],
-    [ "Radiojhead", "The Bends"]
-
-  ];
-
 var dataAll =
 {
    "Graham": [
