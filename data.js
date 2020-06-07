@@ -1,7 +1,7 @@
 var dataAll =
 {
    "Graham": [
-      [ "StoneRoese", "To follow"],
+      [ "Stone Roses", "To follow"],
       [ "Oasis", "To follow"],
       [ "Prodidgy", "To follow"],
       [ "David Bowie", "To follow"],
@@ -63,7 +63,7 @@ var dataAll =
       [ "Credit to the nation", "Take Dis"],
       [ "Carter USM", "30 Something"],
       [ "Barenaked Ladies", "This is Barenaked ladies"],
-      [ "Stone Roses ", "One Love"],
+      [ "Stone Roses", "Second Coming"],
       [ "Family Foundation", "One Blood"],
       [ "Utah Saints", "Utah Saints"],
       [ "Nick Helm", "Hot n Heavy"],
