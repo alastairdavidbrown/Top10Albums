@@ -1,15 +1,15 @@
 var dataAll =
 {
    "Graham": [
-      [ "Stone Roses", "To follow"],
+      [ "The Stone Roses", "To follow"],
       [ "Oasis", "To follow"],
       [ "Prodidgy", "To follow"],
       [ "David Bowie", "To follow"],
       [ "Primal Screem", "To follow"],
       [ "Bruce Springsteen", "To follow"],
       [ "Shed Seven", "To follow"],
-      [ "StoneRoese", "To follow"],
-      [ "StoneRoese", "To follow"]
+      [ "The Stone Roses", "To follow"],
+      [ "The Stone Roses", "To follow"]
   ],
    "Robbie": [
       [ "Kasabian", "Kasabian"],
@@ -36,16 +36,16 @@ var dataAll =
       [ "Waterboys", "Fisherman's Blues"]
     ],
     "Prav": [
-      [ "My Beautiful Dark Twisted Fantasy", "Kanye West"],
-      [ "Channel Orange", "Frank Ocean"],
-      [ "In search Of", "NERD"],
-      [ "Discovery", "Daft Punk"],
-      [ "Watch the throne", "Jay Z & Kanye West"],
-      [ "Aha Shake Heartbreak", "Kings Of Leon"],
-      [ "Empire", "Kasabian"],
-      [ "Ready to Die", "BIG"],
-      [ "Whatever People Say I am, Thats what I’m not", "Arctic Monkeys"],
-      [ "Original Pirate Material", "The Streets"]
+      [ "Kanye West", "My Beautiful Dark Twisted Fantasy"],
+      [ "Frank Ocean", "Channel Orange"],
+      [ "NERD", "In search Of"],
+      [ "Daft Punk", "Discovery"],
+      [ "Jay Z & Kanye West", "Watch the throne"],
+      [ "Kings Of Leon", "Aha Shake Heartbreak"],
+      [ "Kasabian", "Empire"],
+      [ "BIG", "Ready to Die"],
+      [ "Arctic Monkeys", "Whatever People Say I am, Thats what I’m not"],
+      [ "The Streets", "Original Pirate Material"]
     ],
     "Andy": [
       [ "The Stone Roses", "The Stone Roses"],
@@ -63,7 +63,7 @@ var dataAll =
       [ "Credit to the nation", "Take Dis"],
       [ "Carter USM", "30 Something"],
       [ "Barenaked Ladies", "This is Barenaked ladies"],
-      [ "Stone Roses", "Second Coming"],
+      [ "The Stone Roses", "Second Coming"],
       [ "Family Foundation", "One Blood"],
       [ "Utah Saints", "Utah Saints"],
       [ "Nick Helm", "Hot n Heavy"],
