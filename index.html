@@ -17,56 +17,24 @@
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" </script>
     <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap.min.js" </script>
 
-
-    <script type="text/javascript" src="data.js"></script>        <!--Data -->
-    <script type="text/javascript" src="tableUpdate.js"></script> <!--Update Script -->
+    <script type="text/javascript" src="data.js"></script>          <!--Data -->
+    <script type="text/javascript" src="createButtonsAndTable.js"></script>   <!--Update Script -->
 
   </head>
 
   <body>
-    <div class="container">
+
+    <div class="container mt-2" >
       <h1 id="Title">The Top 10 Albums in the world ever according to....!</h1>
     </div>
 
-    <div class="container">
-      <div class="btn-toolbar" id="presonButton" role="toolbar">
-        <div class="btn-group mr-1" role="group" >
-          <button type="button" class="btn btn-primary">Graham</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-          <button type="button" class="btn btn-primary">Graham</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-          <button type="button" class="btn btn-primary">Robbie</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-          <button type="button" class="btn btn-primary">Colin</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-          <button type="button" class="btn btn-primary">Prav</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-          <button type="button" class="btn btn-primary">Andy</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-          <button type="button" class="btn btn-primary">Dave</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-            <button type="button" class="btn btn-primary">Kev</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-            <button type="button" class="btn btn-primary">Lucy</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-            <button type="button" class="btn btn-primary">Lou</button>
-        </div>
-        <div class="btn-group mr-1" role="group" >
-            <button type="button" class="btn btn-primary">Alex</button>
-        </div>
-      </div>
-      <div class="container">
-        <table id="tabAlbums" class="table table-condensed table-striped"></table>
-      </div>
-      </div>
+    <div class="container mt-2">
+      <div class="btn-toolbar" id="peopleButtons" role="toolbar"> </div>
+    </div>
+
+    <div class="container mt-2">
+      <table id="tabAlbums" class="table table-condensed table-striped"></table>
+    </div>
+
   </body>
 </html>
