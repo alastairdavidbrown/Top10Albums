@@ -122,27 +122,24 @@ dataTable = dataAll["Robbie"];
 $(document).ready(function() {
 
     // Initialise first time use
-    var i = initTable();
+    initTable("Robbie");
 
     $(".btn").click(function (event){
       // Update the data table data
-      dataTable = dataAll[$(this).text()];
       $('#tabAlbums').DataTable().destroy();
-      initTable();
-      // Set the heading
-      $('#Title').text("The Top 10 Albums in the world ever according to " + $(this).text() + "!");
+      initTable($(this).text());
     });
 
-    function initTable() {
+    function initTable(key) {
       $('#tabAlbums').DataTable( {
           "searching": false,
           "paging": false,
-          data: dataTable,
+          data: dataAll[key],
           columns: [
               { title: "Artist" },
               { title: "Album" }
           ]
       } );
+      $('#Title').text("The Top 10 Albums in the world ever according to " + key + "!");
     };
-
 } );
